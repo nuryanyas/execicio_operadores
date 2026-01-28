@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner ler = new Scanner(System.in);
+
+        System.out.println("HORAS TRABALHADAS");
+        System.out.println("Quantas horas você trabalhou hoje?");
+        float horas_dia =ler.nextFloat();
+        System.out.println("Quanto ganha por hora? ");
+        float valor_hora= ler.nextFloat();
+
+        // calculo
+
+        float salario = horas_dia * valor_hora;
+
+        System.out.println("Pelo que verifiquei você tem como salario : " + salario);
+
+
+
+
+ler.close();
+
+System.out.println("Por hoje é só pessoal, até a próxima!
