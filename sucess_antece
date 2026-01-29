@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        Scanner ler = new Scanner(System.in);
+
+       // conteudo
+
+    System.out.println("Digite um número :");
+    int num = ler.nextInt();
+
+    System.out.println("O antecessor de" + num + " é " +(num - 1) + ", e o sucessor é " + (num + 1));
+
+
+      ler.close();
+
+System.out.println("Por hoje é só pessoal, até a próxima!");
+}
+}
